@@ -6,9 +6,9 @@
 - **Project:** Advanced Stock Market ML Forecasting Platform  
 - **Assets:** AAPL, TSLA, JPM (+ VIX, S&P 500 context)  
 - **Repository:** `k2pitel/Advanced-Stock-Market-ML-Forecasting-Platform`  
-- **Author(s):** _Add name(s)_  
-- **Institution / Program:** _Add institution_  
-- **QR:** _Add QR to repository/demo_
+- **Author(s):** **[TODO: Add name(s)]**  
+- **Institution / Program:** **[TODO: Add institution/program]**  
+- **QR:** **[TODO: Add QR linking to repository/demo]**
 
 ---
 
@@ -129,6 +129,7 @@ Use this panel for poster figures/tables:
 
 ## 11) Reproducibility
 ```bash
+pip install -r requirements.txt
 python main.py
 streamlit run dashboard/streamlit_app.py
 python -m unittest discover -s tests -q
