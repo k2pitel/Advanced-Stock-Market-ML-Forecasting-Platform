@@ -61,7 +61,7 @@ This project builds a modular research platform that combines:
 ### B) Forecasting
 - Next-day and multi-step horizon support (up to 30-day helpers)
 - Classical methods include ARIMA and Exponential Smoothing
-- Prophet forecasting support (included in `requirements.txt`)
+- Prophet forecasting support (dependency is listed in `requirements.txt`)
 
 ### C) Deep Learning
 - MLP, LSTM, GRU model builders
@@ -105,7 +105,7 @@ Use this panel for poster figures/tables:
 - Directional accuracy comparison across assets/models
 - Strategy equity curve and drawdown plot
 
-> _Insert latest metrics and plots from your notebook/report run._
+This section is reserved for run-specific quantitative outputs generated from the latest experiment run.
 
 ---
 
