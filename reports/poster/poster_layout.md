@@ -77,9 +77,12 @@
 - Designed to support research iteration and academic presentation.
 
 ## Literature Cited
-- Pedregosa et al. (2011). **Scikit-learn: Machine Learning in Python.**
-- Taylor & Letham (2018). **Forecasting at scale (Prophet).**
-- Lundberg & Lee (2017). **A Unified Approach to Interpreting Model Predictions (SHAP).**
+- Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python.
+  *Journal of Machine Learning Research*, 12, 2825-2830.
+- Taylor, S. J., & Letham, B. (2018). Forecasting at scale.
+  *The American Statistician*, 72(1), 37-45.
+- Lundberg, S. M., & Lee, S. I. (2017). A unified approach to interpreting model predictions.
+  *Advances in Neural Information Processing Systems*, 30.
 - Yahoo Finance API (`yfinance`) and statsmodels ARIMA / Exponential Smoothing.
 
 ## Acknowledgments
