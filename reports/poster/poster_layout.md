@@ -61,7 +61,7 @@ This project builds a modular research platform that combines:
 ### B) Forecasting
 - Next-day and multi-step horizon support (up to 30-day helpers)
 - Classical methods include ARIMA and Exponential Smoothing
-- Prophet support when dependency is available
+- Prophet forecasting support (included in `requirements.txt`)
 
 ### C) Deep Learning
 - MLP, LSTM, GRU model builders
