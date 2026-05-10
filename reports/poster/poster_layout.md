@@ -20,7 +20,8 @@
 - Data horizon: 10 years, daily cadence.
 - Output artifacts: raw CSV (`data/raw/market_data.csv`) and engineered feature set (`data/processed/features.csv`).
 
-## Methodology Pipeline (Diagram placeholder)
+## Methodology Pipeline
+_Pipeline diagram shown in the poster graphic._
 1. **Ingest** → Download market data (AAPL, TSLA, JPM, ^GSPC, ^VIX).
 2. **Clean** → Chronology checks, deduping, missing-value handling, outlier clipping.
 3. **Engineer** → Indicators (RSI, MACD, Bollinger Bands, SMA/EMA, ROC, ATR, OBV, Stochastic),
@@ -57,7 +58,7 @@
 - Typical drivers: volatility measures, momentum, RSI/MACD interactions
 
 ## Results and Key Outputs (from pipeline artifacts)
-- Baseline ARIMA demo produces `reports/metrics/baseline_forecast_metrics.json`
+- Baseline ARIMA model (example run via `main.py`) produces `reports/metrics/baseline_forecast_metrics.json`
 - Classification metrics: Accuracy, Precision, Recall, F1, ROC-AUC
 - Forecasting metrics: RMSE, MAE, MAPE, R², directional accuracy
 - Trading outputs: equity curves, drawdown profiles, risk-adjusted returns
